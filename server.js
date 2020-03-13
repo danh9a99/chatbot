@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 
 // Đây là đoạn code để tạo Webhook
 app.get('/webhook', function(req, res) {
-  if (req.query['hub.verify_token'] === 'ma_xac_minh_cua_ban') {
+  if (req.query['hub.verify_token'] === 'e8999f53835c7d44d6a4065a57c6a93f') {
     res.send(req.query['hub.challenge']);
   }
   res.send('Error, wrong validation token');
