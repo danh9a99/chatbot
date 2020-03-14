@@ -1,6 +1,6 @@
-const APP_SECRET = '1104774e8b5242fcf89b3a1f46d1556f';
+const APP_SECRET = '71039e1375a8646c665426c95058eed2';
 const VALIDATION_TOKEN = 'TokenTuyChon';
-const PAGE_ACCESS_TOKEN = 'EAATsECpjTqwBAK9qQDrT3T5kyHnZBla05nZC79GcoidS8je03MzXHAKVOnI6uH2YTOGtEMfa8hPsTNcZCzeY45KJQ6YMixgbYBqap7BN0YadGEinabyzJZBcAjzfAK7jq1uGBVHEAzv72M0BVTgvfWRW1KglhqZBsTQwrtcdZBpAZDZD';
+const PAGE_ACCESS_TOKEN = 'EAAgeOMAwZCzEBAOZBMPEzAZBev9EosVgPyZBPk4R8a725HrsBHzuTmRT5GlT1AMuCVMJnWdMO4cD9wuZASkZCg7xrnruXimO3PetJPdjZCq71QSuqbCd5uD3YZCdPIii2Au377TN0muW5SezPsG9ZB3AT5Cpx5en32Rqz3SVpgBs61yvsTTHDnhZCj';
  
 var http = require('http');
 var bodyParser = require('body-parser');
@@ -14,7 +14,7 @@ var server = http.createServer(app);
 var request = require("request");
  
 app.get('/', (req, res) => {
-  res.send("Home page. Server running okay.");
+  res.send("Server chay ngon lanh !!");
 });
  
 app.get('/webhook', function(req, res) { // Đây là path để validate tooken bên app facebook gửi qua
